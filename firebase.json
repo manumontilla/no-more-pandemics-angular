@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "nomorepandemic-ang",
+    "public": "dist/no-more-pan",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
